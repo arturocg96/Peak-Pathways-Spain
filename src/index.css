@@ -83,7 +83,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #e99401;
+  --bs-primary: black;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -91,7 +91,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #262626;
-  --bs-primary-rgb: 233, 148, 1;
+  --bs-primary-rgb: black;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -159,7 +159,7 @@ body {
   font-family: "Outfit", sans-serif;
   font-weight: 900;
   line-height: 1.2;
-  color: #e99401;
+  color: black;
 }
 
 h1, .h1 {

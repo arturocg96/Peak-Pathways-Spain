@@ -5,7 +5,16 @@ import Mountain from "./components/Mountain";
 import { db } from "./data/db";
 
 function App() {
+  // eslint-disable-next-line no-unused-vars
   const [data, setData] = useState(db);
+  const [cart, setCart] = useState([]);
+
+  function addToCart(item) {
+
+    const itemExists = cart.findIndex((mountain) => mountain.id === item.id);
+    
+    setCart(prevCart => [...prevCart, item]);
+  }
 
   return (
     <>
@@ -19,6 +28,8 @@ function App() {
             <Mountain
               key={mountain.id} 
               mountain={mountain}
+              setCart={setCart}
+              addToCart={addToCart}
             />
           ))}
         </div>

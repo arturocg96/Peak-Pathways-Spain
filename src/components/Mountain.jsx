@@ -1,6 +1,6 @@
-// eslint-disable-next-line react/prop-types
+
 export default function Mountain({ mountain, addToCart }) {
-  // eslint-disable-next-line react/prop-types
+ 
   const { name, image, description, price } = mountain;
 
   return (
@@ -8,7 +8,7 @@ export default function Mountain({ mountain, addToCart }) {
       <div className="col-4">
         <img
           className="img-fluid"
-          src={`./public/img/${image}.jpg`}
+          src={`./img/${image}.jpg`}
           alt="imagen montaña"
         />
       </div>

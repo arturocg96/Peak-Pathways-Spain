@@ -721,7 +721,7 @@ button:not(:disabled),
   }
 }
 .header {
-  background-color: #000; /* Fondo completamente negro */
+  background-color: #000; 
   background-position: 50%;
   background-size: cover;
   position: relative;

@@ -1,6 +1,11 @@
+import type { Mountain } from "../types";
 
-export default function Mountain({ mountain, addToCart }) {
- 
+type MountainProps = {
+  mountain: Mountain;
+  addToCart: (mountain: Mountain) => void;
+};
+
+export default function Mountain({ mountain, addToCart }: MountainProps) {
   const { name, image, description, price } = mountain;
 
   return (

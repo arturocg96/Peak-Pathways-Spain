@@ -1,4 +1,6 @@
-export const db = [
+
+
+export const db: Mountain[] = [
   {
     id: 1,
     name: 'Aneto',
